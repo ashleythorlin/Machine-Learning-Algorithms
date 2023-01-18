@@ -1,14 +1,8 @@
 from keras.models import load_model
-from keras.utils import load_img, img_to_array
-from keras.applications.vgg16 import preprocess_input
-from keras.applications.vgg16 import decode_predictions
-from keras.applications.vgg16 import VGG16
 from keras.datasets import cifar10
 import numpy as np
 import random
 import matplotlib.pyplot as plt
-import matplotlib.image as imglib
-from PIL import Image
 from keras.models import load_model
   
 batch_size = 5

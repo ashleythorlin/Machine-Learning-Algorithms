@@ -1,12 +1,8 @@
 import numpy
 from tensorflow import keras
-from keras.constraints import maxnorm
 from keras.utils import np_utils
 from keras.utils.vis_utils import plot_model
 from keras.datasets import cifar10
-from keras.preprocessing import image
-import pandas as pd
-import matplotlib.pyplot as plt
 
 seed = 21
 
